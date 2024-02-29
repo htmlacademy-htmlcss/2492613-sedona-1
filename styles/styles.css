@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "PT Sans";
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "PT Sans";
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  body {
+    margin: 0;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }
+  .page-header{}
+  .logo-sedona{}
+  .page-navigation
+  .navigation-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .navigation-item{}
+  .navigation-user {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .navigator-item-user{}
+  .likes{}
+  .likes-number{}
+  .main-index{}
+
+  .welcome{}
+.main-title{
+  margin: 0;
+}
+.main-description{
+  margin: 0;
+}
+.advantages-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.advantages-item{}
+.advantages-title{
+  margin: 0;
+}
+.advantages-description{
+  margin: 0;
+}
+.services-capitals{
+  margin: 0;
+}
+
+.services-text{
+  margin: 0;
+}
+.services-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.services-title{
+  margin: 0;
+}
+.services-description{
+  margin: 0;
+}
+.search-title{
+  margin: 0;
+}
+.search-description{
+  margin: 0;
+}
+.search-button{}
+.newsletter{}
+.newsletter-title{
+  margin: 0;
+}
+.newsletter-description{
+  margin: 0;
+}
+.appointmen-form{}
+.footer-contacts{}
+.massanger-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
