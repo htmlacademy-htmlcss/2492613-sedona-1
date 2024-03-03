@@ -5,20 +5,22 @@
     font-style: normal;
     font-display: swap;
   }
-  
   @font-face {
     font-family: "PT Sans";
     src: url("../fonts/ptsans-700.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
-  }
+  } 
   body {
     margin: 0;
     font-family: "PT Sans", "Arial", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
+    background-color: #F2F2F2;
+    color: #000000;
+    text-align: center;
   }
   .visually-hidden {
     position: absolute;
@@ -44,17 +46,49 @@
     padding: 0;
     list-style: none;
   }
+  .navigation-link{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+    text-decoration: none;
+  }
   .navigator-item-user{}
+  .navigation-link-user{
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+  }
   .likes{}
-  .likes-number{}
+  .likes-number{
+    color: #000000;
+    text-decoration: none;
+  }
   .main-index{}
+
+  .hero{
+    background-image: url(../images/index-background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+  }
 
   .welcome{}
 .main-title{
   margin: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-decoration: none;
+  color: #000000;
 }
 .main-description{
   margin: 0;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+
 }
 .advantages-list{
   margin: 0;
@@ -62,11 +96,27 @@
   list-style: none;
 }
 .advantages-item{}
+
+.advantages-item:nth-child(1) .advantages-block{
+
+} 
+.advantages-item:nth-child(5) .advantages-block{
+  background-color: aqua;
+}
 .advantages-title{
   margin: 0;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  background-color: #82B3D3;
 }
 .advantages-description{
   margin: 0;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  padding: o;
+}
 }
 .services-capitals{
   margin: 0;
@@ -93,7 +143,11 @@
   margin: 0;
 }
 .search-button{}
-.newsletter{}
+.newsletter{
+  background-image: url(../images/newsletter-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
 .newsletter-title{
   margin: 0;
 }
