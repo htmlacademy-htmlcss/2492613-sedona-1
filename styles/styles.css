@@ -74,7 +74,7 @@
     background-repeat: no-repeat;
   }
 
-  .welcome{}
+  .welcome-image{}
 .main-title{
   margin: 0;
   font-weight: 700;
@@ -97,12 +97,11 @@
 }
 .advantages-item{}
 
-.advantages-item:nth-child(1) .advantages-block{
-
-} 
+.advantages-item:nth-child(1) .advantages-block
 .advantages-item:nth-child(5) .advantages-block{
-  background-color: aqua;
+  background-color: #82B3D3;
 }
+
 .advantages-title{
   margin: 0;
   color: #FFFFFF;
@@ -117,13 +116,18 @@
   background-color: #82B3D3;
   padding: o;
 }
-}
 .services-capitals{
   margin: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
 }
 
 .services-text{
   margin: 0;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
 }
 .services-list{
   margin: 0;
@@ -132,17 +136,34 @@
 }
 .services-title{
   margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
 }
 .services-description{
   margin: 0;
+  color: #333333;
 }
 .search-title{
   margin: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
 }
 .search-description{
   margin: 0;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
 }
-.search-button{}
+.search-button{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background-color: #756157;
+  text-decoration: none;
+}
 .newsletter{
   background-image: url(../images/newsletter-background.jpg);
   background-size: 100% auto;
@@ -150,12 +171,25 @@
 }
 .newsletter-title{
   margin: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
 }
 .newsletter-description{
   margin: 0;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
 }
 .appointmen-form{}
 .footer-contacts{}
+.footer-contacts-phone{
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+}
 .massanger-list{
   margin: 0;
   padding: 0;
