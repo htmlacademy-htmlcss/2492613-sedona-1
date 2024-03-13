@@ -1,81 +1,111 @@
 @font-face {
-    font-family: "PT Sans";
-    src: url("../fonts/ptsans-400.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-  }
-  @font-face {
-    font-family: "PT Sans";
-    src: url("../fonts/ptsans-700.woff2") format("woff2");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-  } 
-  body {
-    margin: 0;
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    background-color: #F2F2F2;
-    color: #000000;
-    text-align: center;
-  }
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    border: 0;
-    clip: rect(0 0 0 0);
-  }
-  .page-header{}
-  .logo-sedona{}
-  .page-navigation
-  .navigation-list{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  .navigation-item{}
-  .navigation-user {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  .navigation-link{
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: left;
-    color: #000000;
-    text-decoration: none;
-  }
-  .navigator-item-user{}
-  .navigation-link-user{
-    font-weight: 700;
-    font-size: 20px;
-    text-decoration: none;
-    color: #000000;
-  }
-  .likes{}
-  .likes-number{
-    color: #000000;
-    text-decoration: none;
-  }
-  .main-index{}
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
-  .hero{
-    background-image: url(../images/index-background.jpg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-  }
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
-  .welcome-image{}
-.main-title{
+body {
+  margin: 0;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #f2f2f2;
+  color: #000000;
+  text-align: center;
+}
+
+.main-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba (0, 0, 0, 0.2);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.page-header {}
+
+.logo-sedona {}
+
+.page-navigation .navigation-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation-item {}
+
+.navigation-user {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigator-item-user {}
+
+.navigation-link-user {
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.likes {}
+
+.likes-number {
+  color: #000000;
+  text-decoration: none;
+}
+
+.main-index {}
+
+.hero {
+  background-image: url(../images/divider.png), url(../images/index-background.jpg); 
+  background-size: 1200px 57px, cover;
+  background-repeat: no-repeat; no-repeat;
+  background-position: center bottom, center top;
+  padding-top: 51px;
+  padding-bottom: 82px;
+  background-color: #dfebf5;
+}
+
+.welcome-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-title {
   margin: 0;
   font-weight: 700;
   font-size: 30px;
@@ -83,114 +113,137 @@
   text-decoration: none;
   color: #000000;
 }
-.main-description{
+
+.main-description {
   margin: 0;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
 
 }
-.advantages-list{
+
+.advantages-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.advantages-item{}
 
-.advantages-item:nth-child(1) .advantages-block
-.advantages-item:nth-child(5) .advantages-block{
-  background-color: #82B3D3;
+.advantages-item {}
+
+.advantages-item:nth-child(1) .advantages-block .advantages-item:nth-child(5) .advantages-block {
+  background-color: #82b3d3;
 }
 
-.advantages-title{
+.advantages-block {
   margin: 0;
-  color: #FFFFFF;
+  width: 400px;
+  padding-top: 102px;
+  padding-bottom: 102px;
+  background-color: #82b3d3;
+}
+.advantages-title {
+  margin: 0;
+  color: #ffffff;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  background-color: #82B3D3;
+  margin-bottom: 62px;
 }
-.advantages-description{
+
+.advantages-description {
   margin: 0;
-  color: #FFFFFF;
-  background-color: #82B3D3;
-  padding: o;
+  color: #ffffff;
+  padding: 0;
 }
-.services-capitals{
+
+.services-capitals {
   margin: 0;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
 }
 
-.services-text{
+.services-text {
   margin: 0;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
 }
-.services-list{
+
+.services-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.services-title{
+
+.services-title {
   margin: 0;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
 }
-.services-description{
+
+.services-description {
   margin: 0;
   color: #333333;
 }
-.search-title{
+
+.search-title {
   margin: 0;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
 }
-.search-description{
+
+.search-description {
   margin: 0;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
 }
-.search-button{
+
+.search-button {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #756157;
   text-decoration: none;
 }
-.newsletter{
+
+.newsletter {
   background-image: url(../images/newsletter-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
-.newsletter-title{
+
+.newsletter-title {
   margin: 0;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.newsletter-description{
+
+.newsletter-description {
   margin: 0;
   font-size: 22px;
   line-height: 26px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.appointmen-form{}
-.footer-contacts{}
-.footer-contacts-phone{
+
+.appointmen-form {}
+
+.footer-contacts {}
+
+.footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
   color: #000000;
   text-decoration: none;
 }
-.massanger-list{
+
+.messanger-list {
   margin: 0;
   padding: 0;
   list-style: none;
