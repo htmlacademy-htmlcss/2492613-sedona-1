@@ -67,13 +67,13 @@ body {
   padding: 0;
   display: flex;
   list-style: none;
+  width: 500px;
+  flex-wrap: wrap;
 }
 
 .navigation-item {
   padding: 20px 16px;
 }
-
-
 
 .navigation-link {
   font-weight: 700;
@@ -86,13 +86,26 @@ body {
 
 .navigation-user {
   display: flex;
+  justify-content: flex-end;
   margin: 0;
   padding: 0;
+  width: 268px;
   list-style: none;
+  grid-auto-rows: auto;
 }
 
 .navigation-item-user {
-  padding: 0;
+  background-repeat: repeat;
+}
+
+.search-glass {
+  width: 44px;
+  background-image: url(../images/search.svg);
+}
+
+.heart {
+  width: 44px;
+  background-image: url(../images/favourites.svg);
 }
 
 .navigation-link-user {
@@ -102,19 +115,26 @@ body {
   color: #000000;
 }
 
-.likes {}
+.likes {
+  width: 44px;
+  height: 64px;
+  background-color: aquamarine;
+}
 
 .likes-number {
   color: #000000;
-  text-decoration: none;
+  background-color: #7DB54F;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
 }
 
 .navigation-button {
   display: inline-block;
   padding: 8px 34px;
-  margin: 14px 0 14px 20px;
+  margin: 14px 0px 14px 20px;
   border-radius: 4px;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
@@ -165,20 +185,43 @@ body {
 }
 
 .advantages-list {
+  display: flex;
+  width: 1200px;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.advantages-item {}
+.advantages-item {
+  display: flex;
+  background-color: rgba(130, 179, 211, 0.20);
+}
+
+.advantages-item:nth-child(2n) {
+  background-color: rgba(130, 179, 211, 0.12);
+}
+
+.blue {
+  background-color: #82b2d3;
+}
+
+.blue .advantages-block {
+  padding-top: 102px;
+  padding-bottom: 102px;
+}
+
+.blue .advantages-title,
+.blue .advantages-description {
+  color: #ffffff;
+}
+
 
 .advantages-block {
   margin: 0;
   width: 400px;
-  padding-top: 102px;
-  padding-bottom: 102px;
-  background-color: #82b3d3;
-  color: #ffffff;
+  padding-top: 112px;
+  padding-bottom: 112px;
 }
 
 .advantages-title {
@@ -194,18 +237,26 @@ body {
   margin: 0 auto;
   padding: 0;
   width: 250px;
+  color: #333333;
+}
+
+.advantages-image {
+  display: block;
+  object-fit: cover;
+  height: 100%;
 }
 
 .services {
-  margin-top: 64px;
+  padding-top: 64px;
 }
 
 .services-capitals {
-  margin: auto;
+  margin: 0 auto;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   width: 505px;
+  text-transform: uppercase;
 }
 
 .services-text {
@@ -220,29 +271,25 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
 }
 
-.services-block {
-  margin: 0;
-  width: 400px;
-  padding: 102px 85px;
-}
-
-.light-color {
-  background-color: rgba(130, 179, 211, 0.12);
-  color: #000000;
-}
-
-.middle-color {
+.services-item {
+  padding: 184px 85px 81px;
   background-color: rgba(130, 179, 211, 0.20);
-  color: #000000;
 }
+
+.services-item:nth-child(2n) {
+  background-color: #ffffff;
+}
+
 .services-title {
-  margin: 0;
+  margin: 0 0 29px;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  padding: 81px 85px;
+  padding: 0;
   text-transform: uppercase;
 }
 
@@ -266,6 +313,7 @@ body {
   width: 297px;
   font-size: 30px;
   line-height: 36px;
+  text-transform: uppercase;
 }
 
 .search-description {
@@ -288,9 +336,11 @@ body {
   color: #ffffff;
   background-color: #756157;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .newsletter {
+  padding: 96px 0 104px;
   background-image: url(../images/newsletter-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -298,22 +348,52 @@ body {
 
 .newsletter-title {
   margin: auto;
+  padding-bottom: 20px;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   color: #ffffff;
   width: 404px;
+  text-transform: uppercase;
 }
 
 .newsletter-description {
   margin: auto;
+  padding-bottom: 50px;
   font-size: 22px;
   line-height: 26px;
   color: #ffffff;
   width: 475px;
 }
 
-.appointmen-form {}
+.appointment-form {
+  display: flex;
+  justify-content: center;
+}
+
+.appointment-field {
+  width: 452px;
+  min-height: 24px;
+  padding: 14px 20px;
+  border: 0;
+  border-radius: 4px 0 0 4px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.button {
+  padding: 8px 20px;
+  border: 0;
+  width: 232px;
+  border-radius: 0 4px 4px 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  background-color: #82b2d3;
+  color: #ffffff;
+}
 
 .footer-contacts {}
 
@@ -325,7 +405,7 @@ body {
 }
 
 .messanger-list {
-  margin: 0;
-  padding: 0;
+  display: flex;
+  margin: 0 0 35px;
   list-style: none;
 }
