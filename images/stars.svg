@@ -1,0 +1,35 @@
+<svg width="140.000000" height="37.000000" viewBox="0 0 140 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip359_307">
+			<rect id="star 1" width="18.000000" height="17.000000" transform="translate(0.000000 10.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip359_309">
+			<rect id="star 2" width="18.000000" height="17.000000" transform="translate(24.000000 10.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip359_311">
+			<rect id="star 3" width="18.000000" height="17.000000" transform="translate(48.000000 10.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip359_313">
+			<rect id="star 4" width="18.000000" height="17.000000" transform="translate(72.000000 10.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="star 1" width="18.000000" height="17.000000" transform="translate(0.000000 10.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip359_307)">
+		<path id="Vector" d="M9 10L11.1 16.5L18 16.5L12.4 20.5L14.6 27L9 23L3.4 27L5.59 20.5L0 16.5L6.9 16.5L9 10Z" fill="#83B3D3" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<rect id="star 2" width="18.000000" height="17.000000" transform="translate(24.000000 10.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip359_309)">
+		<path id="Vector" d="M33 10L35.09 16.5L42 16.5L36.4 20.5L38.59 27L33 23L27.4 27L29.6 20.5L24 16.5L30.9 16.5L33 10Z" fill="#83B3D3" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<rect id="star 3" width="18.000000" height="17.000000" transform="translate(48.000000 10.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip359_311)">
+		<path id="Vector" d="M57 10L59.1 16.5L66 16.5L60.4 20.5L62.6 27L57 23L51.4 27L53.6 20.5L48 16.5L54.9 16.5L57 10Z" fill="#83B3D3" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+	<rect id="star 4" width="18.000000" height="17.000000" transform="translate(72.000000 10.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip359_313)">
+		<path id="Vector" d="M81 10L83.1 16.5L90 16.5L84.4 20.5L86.6 27L81 23L75.4 27L77.6 20.5L72 16.5L78.9 16.5L81 10Z" fill="#83B3D3" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
