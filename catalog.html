@@ -29,11 +29,14 @@
           </ul>
           <ul class="navigation-user">
             <li class="navigation-item-user">
-              <a class="navigation-link-user search-glass" href="#"></a>
+              <a class="navigation-link-user search-glass" href="#">
+                <span class="visually-hidden">Поиск</span>
+              </a>
             </li>
             <li class="navigation-item-user">
               <a class="navigation-link-user heart" href="#">
                 <span class="likes-number">12</span>
+                <span class="visually-hidden">Избранное</span>
               </a>
             </li>
             <li class="navigation-item-user">
@@ -56,6 +59,7 @@
             </li>
           </ul>
           <section class="catalog-list">
+            <h2 class="visually-hidden">Фильтр для поиска</h2>
             <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
               <div class="filter-group">
               <fieldset class="catalog-filter-group">
@@ -109,9 +113,9 @@
                 <legend class="catalog-filter-title">Стоимость, Р</legend>
                 <div class="price-container">
                   <label class="price-label" for="price-from">от</label>
-                  <input type="text" class="price-field price-field-from" value="0" name="price-from">
+                  <input type="text" class="price-field price-field-from" id="price-from" value="0" name="price-from">
                   <label class="price-label price-label-to" for="price-to">до</label>
-                  <input type="text" class="price-field price-field-to" value="9000" name="price-to">
+                  <input type="text" class="price-field price-field-to" id="price-to" value="9000" name="price-to">
                 </div>
                 <div class="price-range">
                   <div class="line">
@@ -241,7 +245,7 @@
             <a class="pagination-number" href=" #">4</a>
           </li>
           <li class="pagination-item">
-            <p class="pagination-number no-pagination" href=" #">...</p>
+            <a class="pagination-number no-pagination" href=" #">...</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-number" href="#">10</a>
@@ -254,8 +258,9 @@
           <p class="newsletter-title">Подпишитесь на рассылку</p>
           <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input type="email" class="appointment-field" value="Ваш e-mail" name="appointment-post">
+            <input type="email" class="appointment-field" id="appointment-field" value="Ваш e-mail" name="appointment-post">
             <button class="button" type="submit">Подписаться</button>
+            <label class="appointment-label visually-hidden" for="appointment-field">Ввод email</label>
           </form>
         </section>
         <section class="footer-contacts">

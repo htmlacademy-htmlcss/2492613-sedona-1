@@ -1099,6 +1099,18 @@ body {
   border-radius: 4px;
 }
 
+.style-button:hover {
+  outline: 2px solid #000000;
+}
+
+.style-button:focus {
+  outline: 2px solid #68a2ca;
+}
+
+.style-button:active {
+  outline: 2px solid #000000;
+}
+
 .current-style-button {
   border: 2px solid #000000;
 }
