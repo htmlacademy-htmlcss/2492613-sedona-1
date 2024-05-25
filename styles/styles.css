@@ -870,7 +870,7 @@ body {
 }
 
 .price-field {
-  font-family: "PT Sans", "Arial", "Sans-serif";
+  font-family: "PT Sans", "Arial", sans-serif;
   width: 143px;
   padding: 0;
   padding-left: 20px;
