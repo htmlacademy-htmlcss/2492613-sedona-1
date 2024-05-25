@@ -29,11 +29,14 @@
           </ul>
           <ul class="navigation-user">
             <li class="navigation-item-user">
-              <a class="navigation-link-user search-glass" href="#"></a>
+              <a class="navigation-link-user search-glass" href="#">
+                <span class="visually-hidden">Поиск</span>
+              </a>
             </li>
             <li class="navigation-item-user">
               <a class="navigation-link-user heart" href="#">
                 <span class="likes-number">12</span>
+                <span class="visually-hidden">Избранное</span>
               </a>
             </li>
             <li class="navigation-item-user">
@@ -122,7 +125,8 @@
           <p class="newsletter-title">Подпишитесь на рассылку</p>
           <p class="newsletter-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input type="email" class="appointment-field" value="Ваш e-mail" name="appointment-post" required>
+            <input type="email" class="appointment-field" id="appointment-field" value="Ваш e-mail" name="appointment-post" required>
+            <label class="appointment-label visually-hidden" for="appointment-field">Ввод email</label>
             <button class="button" type="submit">Подписаться</button>
           </form>
         </section>
